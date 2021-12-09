@@ -69,7 +69,7 @@ function setup() {
   World.add(world,polygon);
   image(polygon_img,50,200,50,50);
   
-  slingShot = new SlingShot(this.polygon,{x:40,y:200});
+  slingShot = new SlingShot(this.polygon,{x:140,y:200});
 }
 function draw() {
   background(56,44,44); 
